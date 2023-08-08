@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Intelliant_scripts"  thread-count="4">
+<listeners>
+<listener class-name="Utility.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="One_chat">
+    <classes>
+      <class name="intelliantframework.One_Chat.One_chat_script_one"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Two_chat">
+    <classes>
+      <class name="intelliantframework.Two_Chat.Two_Chat_script_one"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Typing">
+    <classes>
+      <class name="intelliantframework.Typing.Typing_Script_one"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Voice_Service">
+    <classes>
+      <class name="intelliantframework.Voice_Service.Voice_Service_Script_one"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
+
+
